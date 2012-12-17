@@ -34,10 +34,10 @@ import org.apache.cordova.util.Logger;
 public class NavigationBar extends HorizontalFieldManager {
     // Images used in the navigation bar. Must exist in the compiled
     // application.
-    private final static String BUTTON_BACK = "icon_arrow_left.png";
-    private final static String BUTTON_FORWARD = "icon_arrow_right.png";
+    private final static String BUTTON_BACK = "iconarrowleft.png";
+    private final static String BUTTON_FORWARD = "iconarrowright.png";
     private final static String BUTTON_REFRESH = "icon_refresh.png";
-    private final static String BUTTON_STOP = "icon_stop.png";
+    private final static String BUTTON_STOP = "iconstop.png";
 
     private BrowserField browserField = null;
 

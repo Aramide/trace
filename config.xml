@@ -19,6 +19,7 @@ xmlns="http://www.w3.org/ns/widgets">
 <preference name="detect-data-types" value="true"/>
  
 <preference name="stay-in-webview" value="true" />
+<gap:plugin name="ChildBrowser" />
 
 
 <access uri="*" subdomains="true" />

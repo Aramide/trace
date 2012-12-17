@@ -36,7 +36,7 @@ public class NavigationBar extends HorizontalFieldManager {
     // application.
     private final static String BUTTON_BACK = "iconarrowleft.png";
     private final static String BUTTON_FORWARD = "iconarrowright.png";
-    private final static String BUTTON_REFRESH = "icon_refresh.png";
+    private final static String BUTTON_REFRESH = "iconrefresh.png";
     private final static String BUTTON_STOP = "iconstop.png";
 
     private BrowserField browserField = null;

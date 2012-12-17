@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget version="1.0.0" 
+versionCode="10" 
+id="com.app4brides.app" 
+xmlns:gap="http://phonegap.com/ns/1.0" 
+xmlns="http://www.w3.org/ns/widgets">
+ 
+<name>Appforbrides</name> 
+<description> Wedding app for Nigerian Brides </description> 
+<author href="http://www.app4brides.com" email="aramide.adebola@gmail.com">Aramide</author>
+ 
+
+<feature name="http://api.phonegap.com/1.0/device" />
+ 
+<preference name="phonegap-version" value="2.0.0"/> 
+<preference name="orientation" value="default"/> 
+<preference name="target-device" value="universal"/> 
+<preference name="fullscreen" value="false"/> 
+<preference name="detect-data-types" value="true"/>
+ 
+<preference name="stay-in-webview" value="true" />
+
+
+<access uri="*" subdomains="true" />
+
+<icon src="icon.png"/> 
+<icon src="icons/ios/icon.png" height="57" width="57"/> 
+<icon src="icons/ios/icon-72.png" height="72" width="72" gap:platform="ios"/> 
+<icon src="icons/ios/icon_at_2x.png" height="114" width="114"/> 
+<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi"/> 
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi"/> 
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi"/> 
+<icon src="icons/bb/icon.png" gap:platform="blackberry"/> 
+<icon src="icons/bb/icon_hover.png" gap:platform="blackberry" gap:state="hover"/> 
+<icon src="icons/winphone/icon.png" gap:platform="winphone"/> 
+<icon src="icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background"/> 
+<icon src="icons/webos/icon.png" gap:platform="webos"/> 
+<icon src="icons/webos/icon.png" gap:platform="webos"/>
+
+<gap:splash src="images/Reception.jpg"         gap:platform="blackberry" />
+<gap:splash src="images/Reception.jpg"    gap:platform="ios"     width="320" height="480" />
+<gap:splash src="images/Reception.jpg" gap:platform="ios"     width="640" height="960" />
+<gap:splash src="images/Reception.jpg"      gap:platform="ios"     width="768" height="1024" />
+<gap:splash src="images/Reception.jpg"     gap:platform="ios"     width="1024" height="768" />
+<gap:splash src="images/Reception.jpg" gap:platform="winphone" />
+
+
+ 
+</widget>
